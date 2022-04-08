@@ -1,4 +1,8 @@
 .NotFound {
-  background-color: #ffca2c;
-  color: #000;
+    margin-left: 24rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+.not{
+    margin-left: 8rem;
 }
