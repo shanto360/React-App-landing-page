@@ -1,0 +1,56 @@
+.pricing .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing .box-container .box {
+  flex: 1 1 20rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.pricing .box-container .box:nth-child(2){
+  border: 0.2rem solid var(--pink);
+}
+
+.pricing .box-container .box .title {
+  color: var(--purple);
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.pricing .box-container .box .price {
+  font-size: 1.5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+}
+
+.pricing .box-container .box .price span {
+  font-size: 1rem;
+}
+
+.pricing .box-container .box ul {
+  list-style: none;
+}
+
+.pricing .box-container .box ul li {
+  font-size: 1rem;
+  color: #666;
+  padding: 0.5rem 0;
+}
+
+.pricing .box-container .box ul li .fa-check {
+  color: lightgreen;
+}
+
+.pricing .box-container .box ul li .fa-times {
+  color: tomato;
+}
